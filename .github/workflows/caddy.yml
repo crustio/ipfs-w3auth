@@ -34,4 +34,4 @@ jobs:
       - name: Dockerize and push
         run: |
           ./dockerize.sh
-          docker push crustio/ipfs-w3auth-caddy:latest
+          docker push crustio/ipfs-w3auth:caddy
